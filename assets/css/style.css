@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
-    font-family: sans-serif;
+    font-family: "Inter",sans-serif;
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
@@ -15,6 +16,14 @@ body{
     flex-direction: column;
 }
 
+.container {
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(117, 4, 117);
+}
+
+
 .logo{
     max-width: 300px;
     margin-bottom: 2px;
@@ -22,8 +31,9 @@ body{
 }
 
 .container-input{
+    align-items:center;
     max-width: 500px;
-    margin: 14px 0;
+    margin: 200px 250px;
 }
 
 .button-ca{
@@ -35,8 +45,10 @@ body{
     height: 50px;
     margin: 15px;
     font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+    font-family: "Inter",sans-serif;
+    cursor: pointer;
+} 
+
 
 .button-cv{
     max-width: 500px;
@@ -47,7 +59,8 @@ body{
     height: 50px;
     margin: 15px;
     font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Inter",sans-serif;
+    cursor: pointer;
 }
 
 .button-co{
@@ -59,7 +72,8 @@ body{
     height: 50px;
     margin: 15px;
     font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Inter",sans-serif;
+    cursor: pointer;
 }
 
 .button-r{
@@ -71,5 +85,6 @@ body{
     height: 50px;
     margin: 15px;
     font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Inter",sans-serif;
+    cursor: pointer;
 }

@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nome Generico Por enquanto</title>
-    <link rel="stylesheet" href="style.css">
-    <script>"script.js"</script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
     <img class="logo" src="./assets/Logo.png" alt="" />
-    <main class="container-input">
+    <div class="container">
+        <main class="container-input">
         
-        <button id="buttonCA" class="button-ca">Cadastrar Avião</button>
-        <button id="buttonCV" class="button-cv">Cadastrar Voo</button>
-        <button id="buttonCO" class="button-co">Cadastrar Ocupação Do Voo</button>
-        <button id="buttonR" class="button-r">Relatorio</button> 
-        
-    </main>
-</body>
+            <button id="buttonCA" onclick="openCadastroA()" class="button-ca">Cadastrar Avião</button>
+            <button id="buttonCV" onclick="openCadastroV()" class="button-cv">Cadastrar Voo</button>
+            <button id="buttonCO" onclick="openCadastroOV()" class="button-co">Cadastrar Ocupação Do Voo</button>
+            <button id="buttonR"  onclick="openRelatorio()" class="button-r">Relatorio</button> 
+            
+        </main>
+    </body>
+    </div>
 </html>
